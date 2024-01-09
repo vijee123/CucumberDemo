@@ -28,6 +28,25 @@ public class SearchSteps {
 	    
 	}
 	
+	@Given("User clears the search box for next product search")
+	public void user_clears_the_search_box_for_next_product_search() throws IOException {
+		BaseClass.getLogger().info("Enter the product name in the search text box...");
+		hp = new HomePage(BaseClass.getDriver());
+	    hp.clearSearchTextBox();
+	}
+	
+	
+	
+	@Given("User enters another {string} in the search box")
+	public void user_enters_another_in_the_search_box(String Product) throws IOException {
+		BaseClass.getLogger().info("Enter the product name in the search text box...");
+		p = BaseClass.getProperties();
+	    hp = new HomePage(BaseClass.getDriver());
+	    hp.setSearchProd(p.getProperty("ProductName2"));
+	}
+	
+	
+	
 	
 	@When("User clicks on the searchIcon")
 	public void user_clicks_on_the_search_icon() {
@@ -51,7 +70,7 @@ public class SearchSteps {
 	    BaseClass.getLogger().info("Check for name of products displayed......");
 	    sp =new SearchPage(BaseClass.getDriver());
 	    String prod = sp.getProdName();
-	    Assert.assertEquals(prod,"iPhone");
+	    Assert.assertEquals(prod,p.getProperty("ProductName"));
 	    }
 	
 

@@ -7,10 +7,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 					//features= {".//Features/"},
-					features= {".//Features/LoginDDT.feature"},
+					//features= {".//Features/Search.feature"},
+					//features= {".//Features/LoginDDT.feature"},
 					//features= {".//Features/Login.feature"},
 					//features={".//Features/AccountRegister.feature"},
 					//features= {".//Features/Login.feature",".//Features/Registration.feature"},
+					features= {".//Features/AddToCart.feature"},
 					//features= {"@target/rerun.txt"},
 					glue="stepDefinitions",
 					plugin= {"pretty", "html:reports/myreport.html", 

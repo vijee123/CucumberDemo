@@ -78,5 +78,9 @@ public class HomePage extends BasePage {
 	public void clickRegister() {
 		registerLink.click();
 	}
+	
+	public void clearSearchTextBox() {
+		search.clear();
+	}
 
 }
