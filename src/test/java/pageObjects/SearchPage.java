@@ -1,9 +1,14 @@
 package pageObjects;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SearchPage extends BasePage {
 
@@ -57,10 +62,13 @@ public class SearchPage extends BasePage {
 		return status;
 	}
 	
-	public void clickShoppingCartLink() {
+	public void clickShoppingCartLink( ) {
 		shoppingCartLink.click();
+//		WebDriverWait myWait = new WebDriverWait(driver,Duration.ofSeconds(10));
+//		WebElement CartLink = myWait.until(ExpectedConditions.visibilityOfElementLocated((By) shoppingCartLink));
+//		 //WebElement CartLink = myWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath=("//span[normalize-space()='Shopping Cart']")));
+//		CartLink.click();
 	}
 	
 	
-
 }
