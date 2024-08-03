@@ -25,6 +25,12 @@ public class ShoppingCartPage extends BasePage {
 	@CacheLookup 
 	private List<WebElement> ProductsAddedInCart;
 	
+//	@FindBy(xpath="//div[@class='product-thumb']//div[@class='caption']//a")
+//	@CacheLookup 
+//	private List<WebElement> productsLinkListed;
+	
+	
+	
 	
 //	List<WebElement> ProductsAddedInCart = 
 //			driver.findElements(By.xpath("//table[@class='table table-striped']//tr//td[@class='text-left']//a"));

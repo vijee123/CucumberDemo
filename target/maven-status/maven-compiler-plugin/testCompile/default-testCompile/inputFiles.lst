@@ -3,15 +3,16 @@ C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\stepDefinitions\LoginSteps.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\Utilities\DataReader.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\Factory\BaseClass.java
+C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\pageObjects\NewsletterPage.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\stepDefinitions\AddToCartSteps.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\pageObjects\AccountRegisterPage.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\stepDefinitions\AccountRegisterSteps.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\pageObjects\ShoppingCartPage.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\pageObjects\HomePage.java
+C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\stepDefinitions\NewsletterSubscribeUnsubscribeSteps.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\pageObjects\BasePage.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\stepDefinitions\SearchSteps.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\pageObjects\AccountCreatedPage.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\TestRunner\TestRunner.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\stepDefinitions\Hooks.java
-C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\stepDefinitions\LogInDDTSteps.java
 C:\Users\jayau\eclipse-workspace\JavaWorkoutProjects\CucumberDemo\src\test\java\pageObjects\MyAccountPage.java

@@ -24,6 +24,9 @@ public class MyAccountPage extends BasePage{
 	@CacheLookup
 	private WebElement linkLogout;
 	
+	@FindBy(xpath="//a[normalize-space()='Subscribe / unsubscribe to newsletter']")
+	@CacheLookup
+	private WebElement NewsSubscribeLink;
 		
 	
 	//------------------Actions-----------------------
@@ -43,6 +46,11 @@ public class MyAccountPage extends BasePage{
 	public void clickLogout()
 	{
 		linkLogout.click();
+	}
+	
+	public void clickNewsletter()
+	{
+		NewsSubscribeLink.click();
 	}
 
 }

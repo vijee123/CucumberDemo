@@ -24,4 +24,4 @@ Feature: To check the login feature of the application.
     Examples: 
       | email                     | passwd   |
       | pavanoltraining@gmail.com | test@123 |
-      | vijaya@gmail.com           | test123  |
+      | vijaya@gmail.com          | test123  |

@@ -31,7 +31,7 @@ public class Hooks {
 		BaseClass.getLogger().info("User website launched...");
 	}
 	
-	//@After
+	@After
 	public void tearDown(Scenario scenario)
 	{
 		driver.quit();

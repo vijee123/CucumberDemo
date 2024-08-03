@@ -56,7 +56,9 @@ public class AddToCartSteps {
 	@Then("Selected product is successfully added in the Cart List.")
 	public void selected_product_is_successfully_added_in_the_cart_list() {
 	    scp = new ShoppingCartPage(BaseClass.getDriver());
-	    System.out.println(scp.ProdDisplayedInShoppingCartList());
+	    System.out.println("The products in shopping cart are: ");
+	    scp.ProdDisplayedInShoppingCartList();
+	    //System.out.println(scp.ProdDisplayedInShoppingCartList());
 	}
 	
 	
